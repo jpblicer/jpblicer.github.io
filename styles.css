@@ -2,10 +2,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #ffffff;
 }
 
 #header-name{
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: bold;
 }
 
@@ -23,5 +24,27 @@ nav ul li{
 
 a{
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 2vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f2ee;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: solid;
+    border-color: black;
+    border-radius: 5%;
+    border-width: 2px;
+    padding: 2%;
+    margin: 5% 20% 5% 20%;
 }

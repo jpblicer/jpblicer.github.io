@@ -59,6 +59,10 @@ content{
     margin: 5% 20% 5% 20%;
     filter: drop-shadow(#666666 1rem 1rem 20px);
 }
+content a{
+    font-size: 1rem;
+    text-decoration: underline;
+}
 
 footer{
     text-align: center;

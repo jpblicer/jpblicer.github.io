@@ -68,3 +68,22 @@ footer a{
     font-size: 1.3vh;
 }
 
+@media screen and (max-width: 1200px){
+    header{
+        flex-direction: column;
+        position: static;
+        background-color: #f4f2ee;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    content{
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        filter: none;
+    }
+    footer{
+        font-size: 5vh;
+    }
+}

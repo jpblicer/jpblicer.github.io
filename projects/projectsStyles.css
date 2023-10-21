@@ -1,0 +1,22 @@
+content{
+    all: initial;;
+}
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    background-color: #ffffff;
+    border: solid;
+    border-color: black;
+    border-radius: 2%;
+    border-width: 2px;
+    padding: 2%;
+    margin: 5% 20% 5% 20%;
+    filter: drop-shadow(#666666 1rem 1rem 20px);
+}
+
+.project-container-right{
+    align-items: center;
+}

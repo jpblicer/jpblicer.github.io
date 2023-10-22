@@ -1,2 +1,3 @@
-# Portfolio
-My Portfolio Website
+# My Portfolio Website
+
+Written in HTML and CSS.

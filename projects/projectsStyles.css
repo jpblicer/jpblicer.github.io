@@ -22,7 +22,10 @@ content{
 }
 
 img{
-    max-width: 200px;
+    max-width: 300px;
+    border-color: #666666;
+    border: solid;
+    border-width: 2px;
 }
 
 figcaption a{

@@ -20,3 +20,21 @@ content{
 .project-container-right{
     align-items: center;
 }
+
+
+@media screen and (max-width: 1200px){
+    header{
+        filter:none;
+    }
+    .project-container{
+        margin: 0;
+        border-top: solid;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid;
+        border-radius: 0;
+        filter: none;
+        flex-direction: column;
+        align-items: center;
+    }
+}

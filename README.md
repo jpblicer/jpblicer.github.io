@@ -1,3 +1,3 @@
 # My Portfolio Website
 
-Written in HTML and CSS.
+Almost written in plain text.

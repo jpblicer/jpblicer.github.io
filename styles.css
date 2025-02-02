@@ -1,6 +1,6 @@
 body{
     font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 8px;
 }
@@ -19,20 +19,12 @@ nav{
     border-bottom: black 1px solid;
 }
 
-h1, h2{
+h2{
     display: flex;
     justify-content: center;
     line-height: 1.4;
     margin: 0;
-    padding: 10px 0;
-}
-
-h1 {
-    margin-bottom: 10px;
-}
-
-h2 {
-    margin-bottom: 8px; 
+    padding: 10px;
 }
 
 h3 {
@@ -43,4 +35,5 @@ h3 {
 footer{
     display: flex;
     justify-content: center;
+    margin-bottom: 8px;
 }

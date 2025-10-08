@@ -27,8 +27,17 @@ body {
   padding: 15px;
   border-radius: 15px;
   margin-right: 20px;
-  box-shadow: 9px 9px 16px #bebebe,
-              -9px -9px 16px #ffffff;
+  box-shadow: inset 4px 4px 8px #bebebe,
+              inset -4px -4px 8px #ffffff;
+}
+
+section {
+  padding: 15px;
+  border-radius: 15px;
+  margin-right: 20px;
+
+  box-shadow: inset 4px 4px 8px #bebebe,
+              inset -4px -4px 8px #ffffff;    
 }
 
 .sidebar ul {
@@ -68,8 +77,6 @@ body {
   background: #e0e0e0;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 9px 9px 16px #bebebe,
-              -9px -9px 16px #ffffff;
 }
 
 h1 {
